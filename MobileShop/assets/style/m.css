@@ -1,0 +1,32 @@
+body{
+    background-color: #f1f1f1 !important;
+}
+.price-mobile{
+    color: blue;
+    font-style: italic;
+}
+.border-mobile{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    padding: 2.5%;
+    margin: 2%;
+    text-align: center;
+    position: relative;
+    border-radius: 8px;
+}
+.border-mobile:hover {
+    box-shadow: 0 4px 8px 0 rgba(177, 174, 174, 1), 0 6px 20px 0
+        rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+a{
+    text-decoration: none !important;
+}
+.img-mobile{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.img-mobile:hover{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
