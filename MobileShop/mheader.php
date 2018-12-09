@@ -5,7 +5,7 @@
         <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" style="background: #337ab7;">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -15,7 +15,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/MobileShop"><i class="glyphicon glyphicon-home"></i></a>
+                    <a class="navbar-brand" href="/projectPHP/MobileShop"><i class="glyphicon glyphicon-home" style="color: #ffffff"></i></a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -42,7 +42,7 @@
                             }
                             ?>
                             <?php if ($tk == null) { ?>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Đăng nhập <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" style="color: #ffffff" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Đăng nhập <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <div style="margin: 20px">
@@ -63,7 +63,7 @@
                             <?php } ?>
                         </li>
                         <li>
-                            <a href="giohang.php">Giỏ hàng
+                            <a href="giohang.php" style="color: #ffffff">Giỏ hàng
                                 <span class="badge">
                                     <?php
                                         if($gh!=null){
