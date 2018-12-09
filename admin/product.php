@@ -87,9 +87,9 @@
 		              			echo '<td width=250>';
 		              			echo '<a class="btn btn-info" href="detail.php?id='.$row["madienthoai"].'">Xem chi tiết</a>';
 		              			echo '&nbsp;';
-		              			echo '<a class="btn btn-success" href="update.php?id='.$row["mahang"].'">Sửa</a>';
+		              			echo '<a class="btn btn-success" href="update.php?id='.$row["madienthoai"].'">Sửa</a>';
 		              			echo '&nbsp;';
-		              			echo '<a class="btn btn-danger" href="delete.php?id='.$row["mahang"].'">Xóa</a>';
+		              			echo '<a class="btn btn-danger" href="delete.php?id='.$row["madienthoai"].'">Xóa</a>';
 		              			echo '</td>';
 		              		echo '</tr>';
 		              	}

@@ -46,7 +46,7 @@
 	    			  <input type="hidden" name="id" value="<?php echo $id;?>"/>
 					  <p class="alert alert-error">Bạn có chắc muốn xóa ?</p>
 					  <div class="form-actions">
-						  <button type="submit" class="btn btn-danger">Yes</button>
+						  <button type="submit" class="btn btn-danger" href="product.php">Yes</button>
 						  <a class="btn" href="article.php">No</a>
 						</div>
 					</form>

@@ -100,7 +100,7 @@
 		              </tbody>
 	            </table>
 	            <?php 
-	            	if($page>1){echo '<a class="btn btn-success" href="product.php?page='.($page-1).'">Trang trước</a>';}
+	            	if($page>1){echo '<a class="btn btn-success" href="menber.php?page='.($page-1).'">Trang trước</a>';}
 	            	echo '&nbsp;';
 					for ($i=1 ; $i<=$pagenumber ; $i++) {
 						if ($i == $page) {
@@ -108,11 +108,11 @@
 						       echo '&nbsp;';
 						} 
 						else {
-						      echo '<a class="btn btn-info" href="product.php?page='.$i.'">'.$i.'</a>';
+						      echo '<a class="btn btn-info" href="menber.php?page='.$i.'">'.$i.'</a>';
 						      echo '&nbsp;';
 						}
 					}
-					if($page<$pagenumber){echo '<a class="btn btn-success" href="product.php?page='.($page+1).'"">Trang sau</a>';}
+					if($page<$pagenumber){echo '<a class="btn btn-success" href="menber.php?page='.($page+1).'"">Trang sau</a>';}
 				?>
 
 			</div>
